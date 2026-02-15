@@ -27,16 +27,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.stephanfortelny.com/" # the base hostname & protocol for your site, e.g. http://example.com
 impressum: {
   name: "Stephan Fortelny",
-  email: "TBD",
+  email: "impressum2026@stephanfortelny.com",
   purpose: "Requirements Engineering",
   address: {
-    city: "...",
-    street: "..."
+    city: "1230 Vienna",
+    street: "Breitenfurter Straße 535-537"
   },
-  uid: "...",
-  memberships: "TBD",
-  ecg_authority: "TBD",
-  legislation: "TBD",
+  uid: "ATU67487016",
+  memberships: "Mitglied der WKÖ, WKK",
+  ecg_authority: "Magistratisches Bezirksamt für den 23. Bezirk",
+  legislation: "Gewerbeordnung abrufbar unter <a href='https://www.ris.bka.gv.at/' target='_BLANK'>https://www.ris.bka.gv.at/</a>",
   complaints: "Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: <a href='http://ec.europa.eu/odr' target='_BLANK'>http://ec.europa.eu/odr</a>. <br>
   Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten."
 }
@@ -45,6 +45,11 @@ impressum: {
 
 ## WARNING DO NOT MODIFY THIS
 #theme: minima
+
+collections:
+  legal_pages:
+    output: true
+    permalink: /legal/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.

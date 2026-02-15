@@ -83,9 +83,3 @@ layout: default
         <a href="https://www.linkedin.com/in/stephanfortelny" target="_blank" class="btn-primary" style="margin-top: 15px;">Get in Touch</a>
     </div>
 </section>
-
-<footer class="glass footer">
-    <div class="container">
-        <p>© 2026 Software Requirements Engineer</p>
-    </div>
-</footer>

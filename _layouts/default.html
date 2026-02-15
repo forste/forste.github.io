@@ -10,6 +10,16 @@
   <body>
 
     {{content}}
+    <footer class="glass footer">
+        <div class="container">
+            <p>© 2026 Software Requirements Engineer</p>
+            <div class="legal-pages">
+            {%- for my_page in site.legal_pages -%}
+              <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endfor -%}
+          </div>
+        </div>
+    </footer>
 
   </body>
 
